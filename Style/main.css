@@ -1,0 +1,22 @@
+li:hover {
+    color: blue;
+}
+
+a {
+    color: Black;
+    font-size: 25px;
+}
+
+a:hover {
+    color: cyan;
+}
+
+html {
+    background: linear-gradient(to top, rgb(255, 0, 0) 0%, white 100%)
+}
+
+p {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
