@@ -18,6 +18,10 @@
         
         html {
             scroll-behavior: smooth;
+            background-image: url("Images/Background.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: white;
         }
         
          ::-webkit-scrollbar {
@@ -28,9 +32,27 @@
             width: 0 !important
         }
         
+        section .mybutton {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            color: #151D21;
+            background: #ff7a7a;
+            display: inline-flex;
+            padding: 6px;
+            margin-top: 30px;
+            margin-right: 5%;
+            margin-left: 5%;
+            border: none;
+            border-radius: 5px;
+        }
+        
         section {
             text-align: center;
             padding: 8%;
+        }
+        
+        section .mybutton:hover {
+            color: white;
         }
         
         section nav {
@@ -49,10 +71,6 @@
         }
         
         body {
-            background: #151D21;
-            background-image: url("../Images/Background.jpg");
-            background-size: 100%;
-            background-repeat: no-repeat;
             color: white;
         }
         
@@ -61,20 +79,31 @@
         }
         
         a {
-            color: Black;
+            text-decoration: none;
+            color: gray;
             font-size: 25px;
         }
         
-        a:hover {
-            color: cyan;
-        }
-        
-        html {
-            background: linear-gradient(to top, rgb(255, 0, 0) 0%, white 100%)
+        div {
+            background-size: 20px;
         }
         
         footer {
             font-size: 10px;
+        }
+        
+        a:hover {
+            color: #ff7a7a;
+        }
+        
+        footer {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            background-attachment: scroll;
+            background-position: 0% 0%;
+            position: fixed;
+            bottom: 0pt;
+            font-weight: 100;
         }
         
         p {
@@ -87,13 +116,21 @@
 </head>
 
 <body>
-    <a href="https://notdanidev0.github.io/index.html">NotDani Page</a> &nbsp; &nbsp; &nbsp;
-    <a href="about.html">O Mnie</a> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-
-    <a class="mybutton" href="#middle">Learn more.</a>
+    <div>
+        <a href="about.html">O Mnie</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="https://notdanidev0.github.io/index.html">Strona NotDani</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="mail.html">Jak można ze mną skontaktować</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="games.html">Gry w które gram</a>
+    </div>
+    <section>
+        <a style=" text-align: center;" class="mybutton" href="#middle">Learn more.</a>
+    </section>
     <br>
     <br>
-    <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <section class="par" id="middle">
         <header>
             Siema!
@@ -102,10 +139,9 @@
             Jestem Tymek. mam 12 lat i uczę się programować <br> w różnych językach w tym html.
         </nav>
     </section>
-    <br><br><br><br><br><br>
     <footer>&copy; 2021 AnqITomo</footer>
     <br><br><br>
-    <a style="color: #151D21;" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">You found a secret link!</a>
+    <a style="color: #151D21;" href="coding.html">You found a secret link!</a>
 </body>
 
 </html>
